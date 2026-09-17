@@ -8,7 +8,7 @@ print()
 print("=== DATA PRAKTIKAN & HASIL PEMERIKSAAN ===")
 print("Nama Mahasiswa  :", nama_2006, '|', "tipe:", type(nama_2006) )
 print("Jenis Kelamin   :", jenis_kelamin_2006, '|', "tipe:", type(jenis_kelamin_2006) )
-#===============================================================
+#========================================================================================
 alamat_2006 = """
    Jalan Tenggiri
    Kec.Padang Utara
@@ -25,6 +25,5 @@ batas_lulus_2006 = 80.0
 kelulusan_2006 = skor_tes_2006 >= batas_lulus_2006
 print("Batas Minimum Nilai :", batas_lulus_2006)
 print("Apakah Dinyatakan Lulus?:", kelulusan_2006, '|', "tipe:", type(kelulusan_2006) )
-print()
 
 
