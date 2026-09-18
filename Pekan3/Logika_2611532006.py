@@ -17,7 +17,7 @@ print("\nKonjungsi (AND)")
 print("A1 and A2 =", hasil_2006)
 
 # Disjungsi : bernilai True jika salah satunya true
-hasil_2006 = a1_2006 and a2_2006
+hasil_2006 = a1_2006 or a2_2006
 print("\nDisjungsi (OR)")
 print("A1 or A2 =", hasil_2006)
 

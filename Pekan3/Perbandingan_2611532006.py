@@ -27,9 +27,9 @@ print("\nOperator lebih kecil dari atau sama dengan")
 print("angka1 <= angka2 =", hasil_2006)
 
 # Sama dengan
-hasil_2006 = angka1_2006 = angka2_2006
+hasil_2006 = angka1_2006 == angka2_2006
 print("\nOperator Sama dengan")
-print("angka1 = angka2 =", hasil_2006)
+print("angka1 == angka2 =", hasil_2006)
 
 # Tidak sama dengan
 hasil_2006 = angka1_2006 != angka2_2006
