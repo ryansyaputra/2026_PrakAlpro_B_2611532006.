@@ -20,7 +20,7 @@ total_diskon_persen_2006 = 0
 # Multi-IF terpisah: Setiap kondisi diperiksa secara independen
 # Diskon bisa ditumpuk (akumulasi) jika memenuhi beberapa syarat sekaligus
 
-if total_belanja_2006 > 1000000:
+if total_belanja_2006 >= 1000000:
     total_diskon_persen_2006 += 10 # Diskon belanja besar
 
 if is_member:
