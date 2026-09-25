@@ -1,4 +1,4 @@
-# Buat file dengan nama nilai_nim.py
+# Buat file dengan nama nilai_2611532006.py
 # Buat program untuk nested if
 # Nama variabel ditambah 4 digit nim terakhir contoh: ipk_2006
 # Program ini menggunakan fungsi input()

@@ -1,18 +1,18 @@
-# Buat file dengan nama if_elif_else1_2611532006.py
-# Buat program untuk kondisional if
+# Buat file dengan nama nilai_2611532006.py
+# Buat program untuk nested if
 # Nama variabel ditambah 4 digit nim terakhir contoh: ipk_2006
 # Program ini menggunakan fungsi input()
+# Program konversi nilai angka jadi huruf
 
-umur_2006 = int(input("Input umur anda: "))
-sim_2006 = input("Apakah Anda Sudah Punya Sim C: ")[0]
+nilai_2006 = int(input("Inputkan nilai angka="))
 
-if umur_2006 >= 17 and sim_2006 == 'y':
-    print("Anda Sudah dewasa dan boleh bawa motor")
-elif umur_2006 >= 17 and sim_2006 != 'y':
-    print("Anda Sudah dewasa tetapi tidak boleh bawa motor")
-elif umur_2006 < 17 and sim_2006 == 'y':
-    print("Anda Belum Cukup Umur punya SIM")
+if nilai_2006 >= 81:
+    print("A")
+elif nilai_2006 >= 70:
+    print("B")
+elif nilai_2006 >= 60:
+    print("C")
+elif nilai_2006 >= 50:
+    print("D")
 else:
-    print("Anda Belum Cukup Umur dan tidak boleh bawa motor")
-
-print("Program Selesai")
+    print("E")
