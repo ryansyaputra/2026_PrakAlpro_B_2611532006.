@@ -17,6 +17,6 @@ print("Vowels:", count)
 text = "Ryan Syaputra"
 count = 0
 for char in text:
-    if char in "Aaiueo":
+    if char in "AIUEOaiueo":
         count += 1
 print("Vowels:", count)
